@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NexTime</title>
-    <link rel="stylesheet" href="estilos.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
 </head>
 <body>
+    <h1>Luck Barbearia</h1>
+    <h2>Por favor, selecione a data e horário disponível para agendamento</h2>
+    
+    <form id="formAgendamento">
+        <input type="date" id="dataSelecionada">        
+    </form>
+
+    <form id="formRadios">
+        <label class="hora"><input type="radio" name="hora" value="true" id="09:00h"> 09:00h</label>
+        <label class="hora"><input type="radio" name="hora" value="true" id="10:00h"> 10:00h</label>
+        <label class="hora"><input type="radio" name="hora" value="true" id="11:00h"> 11:00h</label>
+        <label class="hora"><input type="radio" name="hora" value="true" id="13:00h"> 13:00h</label>
+        <label class="hora"><input type="radio" name="hora" value="true" id="14:00h"> 14:00h</label>
+        <label class="hora"><input type="radio" name="hora" value="true" id="15:00h"> 15:00h</label>
+        <label class="hora"><input type="radio" name="hora" value="true" id="16:00h"> 16:00h</label>
+        <label class="hora"><input type="radio" name="hora" value="true" id="17:00h"> 17:00h</label>
+    </form>
+
+     
+    <script src="js/script.js" defer></script>
+
     
 </body>
 </html>
