@@ -1,0 +1,44 @@
+:root {
+  --cor-primaria: #3498db; /* Azul */
+  --cor-secundaria: #2ecc71; /* Verde */
+  --cor-texto: #c5c5c5; /* Cor do texto principal */
+  --cor-fundo: #292929; /* Cor de fundo */
+  --cor-borda: #ccc; /* Cor das bordas */
+}
+
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--cor-texto);
+}
+
+* {
+  font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#formLogin {
+    justify-self: center;
+    padding-top: 40px;
+}
+
+.login {
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    border-color: var(--cor-primaria);
+    padding: 5px;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+#email {
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
