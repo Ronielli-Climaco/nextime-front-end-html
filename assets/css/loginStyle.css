@@ -6,11 +6,20 @@
   --cor-borda: #ccc; /* Cor das bordas */
 }
 
-
 h1, h2 {
     display: flex;
     justify-content: center;
     color: var(--cor-texto);
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1rem;
 }
 
 * {
@@ -21,11 +30,11 @@ h1, h2 {
 
 #formLogin {
     justify-self: center;
-    padding-top: 40px;
+    width: 100%;
 }
 
 .login {
-    width: 300px;
+    width: 100%;
     border: none;
     outline: none;
     border-bottom: 1px solid;
@@ -36,11 +45,20 @@ h1, h2 {
 }
 
 #email {
-    margin-bottom: 10px;
+    margin-bottom: 2%;
 }
 
 body {
-    background-color: var(--cor-fundo);
+    margin: 0px;
+    background-image: url('/images/3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 2%;
 }
 
 #btLogin {
@@ -52,4 +70,19 @@ body {
 a {
     text-decoration: none;
     color: var(--cor-texto);
+}
+
+.ajuda {
+    font-size: 12px;
+}
+
+#cadastre-se {
+    margin-top: -9px;
+}
+
+.fundoLogin {
+    background-color: #0000007a;
+    padding: 2%;
+    margin-top: 5%;
+    
 }
