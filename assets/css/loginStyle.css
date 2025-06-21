@@ -42,3 +42,14 @@ h1, h2 {
 body {
     background-color: var(--cor-fundo);
 }
+
+#btLogin {
+    padding: 5px;
+    margin-top: 10px;
+    width: 60px;
+}
+    
+a {
+    text-decoration: none;
+    color: var(--cor-texto);
+}
