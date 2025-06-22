@@ -39,11 +39,11 @@ h2 {
     padding-top: 20px;
 }
 
-#formRadios {
+#formDadosCliente {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px;
+    padding: 2vw;
     padding-bottom: 10px;
     font-size: 4.5vw;
 }
@@ -72,6 +72,7 @@ h2 {
 #horarios {
     background-color: var(--cor-fundo);
     padding: 2vw;
+    margin-top: 1.2vh;
     border: none;
     font-size: 3.5vw;
     border-bottom: 2px solid;
@@ -84,7 +85,7 @@ h2 {
     padding: 2vw;
     border: none;
     text-decoration: none;
-    margin-bottom: 5px;
+    margin-top: 1.2vh;
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     border-bottom: 2px solid;
@@ -92,9 +93,4 @@ h2 {
     outline: none;
     width: 70vw;
     font-size: 3.5vw;
-}
-
-#hora09 {
-   margin-top: 3vh;
-
 }
