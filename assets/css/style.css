@@ -9,13 +9,13 @@
 * {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
     color: white;
 }
 
 body {
-    background-image: url(/images/index/1.jpg);
+    background-image: url(/images/index/2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ h1 {
     text-align: center;
     padding-top: 30px;
     font-size: 10vw;
-    font-weight: 800;
+    font-weight: 400;
 }
 
 h2 {
