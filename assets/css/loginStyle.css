@@ -13,13 +13,14 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 4vw;
     margin-bottom: 0;
     margin-top: 0;
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 1.2vw;
+    justify-self: center;
 }
 
 * {
@@ -29,19 +30,20 @@ h2 {
 }
 
 .formularioLogin {
-    justify-self: center;
-    width: 60%;
+    justify-items: center;
+    min-width: 60%;
 }
 
 .login {
-    width: 100%;
+    min-width: 100%;
     border: none;
     outline: none;
     border-bottom: 1px solid;
     border-color: var(--cor-primaria);
-    
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
+    font-size: 0.7vw;
+    padding-left: 10px;
 }
 
 #email {
@@ -73,7 +75,7 @@ a {
 }
 
 .ajuda {
-    font-size: 12px;
+    font-size: 0.6vw;
 }
 
 #cadastre-se {
@@ -84,7 +86,7 @@ a {
     background-color: #000000b4;
     padding: 2%;
     margin-top: 5%;
-    width: 30%;
+    min-width: 0.5vw;
 }
 
 #logoInit {
@@ -101,9 +103,68 @@ a {
     gap: 3%;
 }
 
-@media screen and (min-width: 920px) and (max-width: 1180px) {
+
+
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 12vw;
+        text-align: center;
+    }
+    
     h2 {
-        font-size: 1.5rem;
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    body {
+        background-color: var(--cor-fundo);
+        background-image: none;
+        padding: 20px;
+    }
+
+    .fundoLogin{
+        margin-top: 25%;
+        padding: 20px;
+        background-color: #00000048;
+        border-radius: 8px;
+        justify-items: center;
+    }
+
+    .login {
+        min-width: 70vw;
+        min-height: 8vw;
+        padding-left: 10px;
+        font-size: 4.3vw;
+    }
+
+    .ajuda {
+        font-size: 3.5vw;
+    }
+} 
+
+
+
+@media screen and (min-width: 801px) and (max-width: 1700px) {
+    .fundoLogin {
+        max-width: 30vw;
+    }
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 1.5vw;
+    }
+
+    .login {
+        min-width: 15vw;
+        font-size: 1.2vw;   
+    }
+
+    .ajuda {
+        font-size: 1.1vw;
     }
 
 }
