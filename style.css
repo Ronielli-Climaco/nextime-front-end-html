@@ -6,6 +6,17 @@
   --cor-borda: #ccc; /* Cor das bordas */
 }
 
+.divLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: 20vw;
+    font-size: 7vw;
+}
+
 * {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -22,7 +33,6 @@ body {
 
 h1 {
     text-align: center;
-    padding-top: 30px;
     font-size: 10vw;
     font-weight: 400;
 }
