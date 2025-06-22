@@ -29,7 +29,25 @@
             <input type="text" id="segundoNome" class="dadosCliente" placeholder="Sobrenome">
             <input type="text" id="telefone" class="dadosCliente" placeholder="(XX) 9XXXX-XXXX" pattern="\([0-9]{2}\) 9[0-9]{4}-[0-9]{4}" required>
             <input type="text" id="email" class="dadosCliente" placeholder="E-mail">
-            <label class="hora"><input type="radio" name="hora" value="true" id="hora09"> 09:00h</label>
+           
+            <select id="horarios" nome="horarios">
+                <option value="horariosSelecionado">Selecione o horário </option>
+                <option value="09:00">09:00h </option>
+                <option value="10:00">10:00h </option>
+                <option value="11:00">11:00h </option>
+                <option value="13:00">13:00h </option>
+                <option value="14:00">14:00h </option>
+                <option value="15:00">15:00h </option>
+                <option value="16:00">16:00h </option>
+                <option value="17:00">17:00h </option>
+                <option value="18:00">18:00h </option>
+
+            </select>
+            
+            
+            
+            
+            <!--<label class="hora"><input type="radio" name="hora" value="true" id="hora09"> 09:00h</label>
             <label class="hora"><input type="radio" name="hora" value="true" id="10:00h"> 10:00h</label>
             <label class="hora"><input type="radio" name="hora" value="true" id="11:00h"> 11:00h</label>
             <label class="hora"><input type="radio" name="hora" value="true" id="13:00h"> 13:00h</label>
@@ -37,7 +55,7 @@
             <label class="hora"><input type="radio" name="hora" value="true" id="15:00h"> 15:00h</label>
             <label class="hora"><input type="radio" name="hora" value="true" id="16:00h"> 16:00h</label>
             <label class="hora"><input type="radio" name="hora" value="true" id="17:00h"> 17:00h</label>
-            <label class="hora"><input type="radio" name="hora" value="true" id="17:00h"> 18:00h</label>
+            <label class="hora"><input type="radio" name="hora" value="true" id="17:00h"> 18:00h</label>-->
             <label><input type="submit" name="enviarHora" value="Agendar" id="btAgendar"></label>
         </form>
     </div>
