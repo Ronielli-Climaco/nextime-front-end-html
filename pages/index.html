@@ -3,30 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NexTime</title>
+<title>NexTime</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="icon" href="/images/icon.PNG" sizes="48x48" type="image/png">
 
 </head>
 <body>
-    <h1>Luck Barbearia</h1>
-    <h2>Por favor, selecione a data e horário disponível para agendamento</h2>
     
-    <form id="formAgendamento">
-        <input type="date" id="dataSelecionada">        
-    </form>
-
-    <form id="formRadios">
-        <label class="hora"><input type="radio" name="hora" value="true" id="09:00h"> 09:00h</label>
-        <label class="hora"><input type="radio" name="hora" value="true" id="10:00h"> 10:00h</label>
-        <label class="hora"><input type="radio" name="hora" value="true" id="11:00h"> 11:00h</label>
-        <label class="hora"><input type="radio" name="hora" value="true" id="13:00h"> 13:00h</label>
-        <label class="hora"><input type="radio" name="hora" value="true" id="14:00h"> 14:00h</label>
-        <label class="hora"><input type="radio" name="hora" value="true" id="15:00h"> 15:00h</label>
-        <label class="hora"><input type="radio" name="hora" value="true" id="16:00h"> 16:00h</label>
-        <label class="hora"><input type="radio" name="hora" value="true" id="17:00h"> 17:00h</label>
-    </form>
-
+    <div class="fundoEscuro">
+        <h1>Luck Barbearia</h1>
+        <h2>Por favor, selecione a data e horário disponível para agendamento</h2>
+        
+        
+        
+                
+        
+        <form id="formRadios">
+            <input type="date" id="dataSelecionada" class="dadosCliente">
+            <input type="text" id="primeiroNome" class="dadosCliente" placeholder="Nome">
+            <input type="text" id="segundoNome" class="dadosCliente" placeholder="Sobrenome">
+            <input type="text" id="telefone" class="dadosCliente" placeholder="Telefone">
+            <input type="text" id="email" class="dadosCliente" placeholder="E-mail">
+            <label class="hora"><input type="radio" name="hora" value="true" id="hora09"> 09:00h</label>
+            <label class="hora"><input type="radio" name="hora" value="true" id="10:00h"> 10:00h</label>
+            <label class="hora"><input type="radio" name="hora" value="true" id="11:00h"> 11:00h</label>
+            <label class="hora"><input type="radio" name="hora" value="true" id="13:00h"> 13:00h</label>
+            <label class="hora"><input type="radio" name="hora" value="true" id="14:00h"> 14:00h</label>
+            <label class="hora"><input type="radio" name="hora" value="true" id="15:00h"> 15:00h</label>
+            <label class="hora"><input type="radio" name="hora" value="true" id="16:00h"> 16:00h</label>
+            <label class="hora"><input type="radio" name="hora" value="true" id="17:00h"> 17:00h</label>
+            <label class="hora"><input type="radio" name="hora" value="true" id="17:00h"> 18:00h</label>
+            <label><input type="submit" name="enviarHora" value="Agendar" id="btAgendar"></label>
+        </form>
+    </div>
      
     <script src="/assets/js/script.js" defer></script>
 

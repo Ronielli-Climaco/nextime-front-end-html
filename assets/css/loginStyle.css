@@ -103,9 +103,6 @@ a {
     gap: 3%;
 }
 
-
-
-
 @media screen and (max-width: 800px) {
     h1 {
         font-size: 12vw;
@@ -142,8 +139,6 @@ a {
         font-size: 3.5vw;
     }
 } 
-
-
 
 @media screen and (min-width: 801px) and (max-width: 1700px) {
     .fundoLogin {
