@@ -28,9 +28,9 @@ h2 {
   font-style: normal;
 }
 
-#formLogin {
+.formularioLogin {
     justify-self: center;
-    width: 100%;
+    width: 60%;
 }
 
 .login {
@@ -39,7 +39,7 @@ h2 {
     outline: none;
     border-bottom: 1px solid;
     border-color: var(--cor-primaria);
-    padding: 5px;
+    
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
 }
@@ -84,5 +84,26 @@ a {
     background-color: #000000b4;
     padding: 2%;
     margin-top: 5%;
-    
+    width: 30%;
+}
+
+#logoInit {
+    width: 20%;
+    height: auto;
+}
+
+#h1Logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 3%;
+}
+
+@media screen and (min-width: 920px) and (max-width: 1180px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
 }
