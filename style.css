@@ -52,7 +52,7 @@ h2 {
 #formDadosCliente {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*align-items: center;*/
     padding: 2vw;
     padding-bottom: 10px;
     font-size: 4.5vw;
@@ -70,32 +70,34 @@ h2 {
     border: none;
     border-radius: 20px;
     padding: 10px;
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     margin-top: 3vh;
     margin-bottom: 3vh;
     font-size: 5vw;
+}
 
-
+.labelBt {
+    align-self: center;
 }
 
 #horarios {
     background-color: var(--cor-fundo);
     padding: 2vw;
-    margin-top: 1.2vh;
     border: none;
     font-size: 3.5vw;
     border-bottom: 2px solid;
     border-color: var(--cor-primaria);
     width: 74vw;
     outline: none;
+    align-self: center;
 }
 
 .dadosCliente {
     padding: 2vw;
+    align-self: center;
     border: none;
     text-decoration: none;
-    margin-top: 1.2vh;
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     border-bottom: 2px solid;
@@ -103,4 +105,10 @@ h2 {
     outline: none;
     width: 70vw;
     font-size: 3.5vw;
+}
+
+.labels {
+    padding-left: 11vw;
+    padding-top: 1vh;
+    font-size: 3vw;
 }

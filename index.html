@@ -24,18 +24,18 @@
     <div class="fundoEscuro">
         <h1>Luck Barbearia</h1>
         <h2>Por favor, selecione a data e horário disponível para agendamento</h2>
-        
-        
-        
-                
-        
+                 
         <form id="formDadosCliente">
-            <input type="date" id="dataSelecionada" class="dadosCliente">
-            <input type="text" id="primeiroNome" class="dadosCliente" placeholder="Nome">
-            <input type="text" id="telefone" class="dadosCliente" placeholder="Telefone">
+            <label for="dataSelecionada" class="labels">Data</label>
+            <input type="date" id="dataSelecionada:" class="dadosCliente">
+            <label for="primeiroNome" class="labels">Nome:</label>
+            <input type="text" id="primeiroNome" class="dadosCliente">
+            <label for="telefone" class="labels">Telefone:</label>
+            <input type="text" id="telefone" class="dadosCliente">
             
+            <label for="horarios" class="labels">Horários:</label>
             <select id="horarios" nome="horarios">
-                <option value="horariosSelecionado">Selecione o horário </option>
+                <option value="horariosSelecionado"></option>
                 <option value="09:00">09:00h </option>
                 <option value="10:00">10:00h </option>
                 <option value="11:00">11:00h </option>
@@ -47,7 +47,7 @@
                 <option value="18:00">18:00h </option>
             </select>
             
-            <label><input type="submit" name="enviarHora" value="Agendar" id="btAgendar"></label>
+            <label class="labelBt"><input type="submit" name="enviarHora" value="Agendar" id="btAgendar"></label>
         </form>
     </div>
      
