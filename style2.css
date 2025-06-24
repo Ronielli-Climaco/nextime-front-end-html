@@ -53,7 +53,6 @@ h2 {
 #formDadosCliente {
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
     padding: 2vw;
     padding-bottom: 10px;
     font-size: 4.5vw;
@@ -83,7 +82,7 @@ h2 {
 }
 
 #horarios {
-    background-color: var(--cor-fundo);
+    background-color: #d1d1d1;
     padding: 2vw;
     border: none;
     font-size: 3.5vw;
@@ -99,7 +98,7 @@ h2 {
     align-self: center;
     border: none;
     text-decoration: none;
-    background-color: var(--cor-fundo);
+    background-color: #d1d1d1;
     color: var(--cor-texto);
     border-bottom: 2px solid;
     border-color: #00ff14;
