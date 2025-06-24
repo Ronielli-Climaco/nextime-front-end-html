@@ -1,5 +1,5 @@
 :root {
-  --cor-primaria: #00eeff; /* Azul */
+  --cor-primaria: #7aff84; /* Azul */
   --cor-secundaria: #2ecc71; /* Verde */
   --cor-texto: #252525; /* Cor do texto principal */
   --cor-fundo: #ffffff; /* Cor de fundo */
@@ -66,7 +66,7 @@ h2 {
     
     color: black;
     font-weight: 600;
-    background-color: #00ff14;
+    background-color: #7aff84;
     border: none;
     border-radius: 20px;
     padding: 10px;
@@ -82,7 +82,7 @@ h2 {
 }
 
 #horarios {
-    background-color: #ededed;
+    background-color: #7aff84;
     padding: 2vw;
     border: none;
     font-size: 3.5vw;
@@ -98,7 +98,7 @@ h2 {
     align-self: center;
     border: none;
     text-decoration: none;
-    background-color: #ededed;
+    background-color: #7aff84;
     color: var(--cor-texto);
     border-bottom: 2px solid;
     border-color: #00ff14;
