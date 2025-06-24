@@ -82,7 +82,7 @@ h2 {
 }
 
 #horarios {
-    background-color: #d1d1d1;
+    background-color: #ededed;
     padding: 2vw;
     border: none;
     font-size: 3.5vw;
@@ -98,7 +98,7 @@ h2 {
     align-self: center;
     border: none;
     text-decoration: none;
-    background-color: #d1d1d1;
+    background-color: #ededed;
     color: var(--cor-texto);
     border-bottom: 2px solid;
     border-color: #00ff14;
