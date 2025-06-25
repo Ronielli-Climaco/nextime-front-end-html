@@ -1,0 +1,74 @@
+* {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.forms {
+	
+}
+
+#labelInput {
+	padding-left: 19vw;
+    font-size: 2.5vw;
+}
+
+.buttons {
+	display: block;
+    justify-self: center;
+    border: none;
+    border-radius: 15vw;
+    padding: 2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    color: #ffffff;
+    background-color: #4477ff;
+}
+
+.botaoLista {
+	font-size: 2.5vw;
+    margin-left: 2vw;
+    margin-bottom: 1vh;
+    border: none;
+    border-radius: 15vw;
+    background-color: #4477ff;
+    color: white;
+	
+}
+
+
+li {
+	list-style: none;
+    font-size: 3.5vw;
+    display: block;
+    justify-self: left;
+	
+}
+
+.campoPreenchimento {
+	display: block;
+    justify-self: center;
+    outline-color: #0043ff7d;
+    outline-offset: 1px;
+    border-radius: 10vw;
+    border: none;
+    background-color: #002eff0d;
+    border-bottom: 1px solid;
+    border-color: #0043ff7d;
+    margin-bottom: 1vh;
+    padding: 2.5vw;
+    font-size: 3vw;
+    width: 60vw;
+    font-weight: 400;
+	
+	
+	
+}
