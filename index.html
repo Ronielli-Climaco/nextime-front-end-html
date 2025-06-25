@@ -9,14 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
    
-    <link rel="stylesheet" href="style2.css">
-    <link rel="icon" href="/images/icon.PNG" sizes="48x48" type="image/png">
+    <link rel="stylesheet" href="src/assets/css/style2.css">
+    <link rel="icon" href="src/images/icon.PNG" sizes="48x48" type="image/png">
 
 </head>
 <body>
 
     <div class="divLogo">
-        <img src="images/logo.PNG" alt="logo" class="logo">
+        <img src="src/images/logo.PNG" alt="logo" class="logo">
         <p class="logo">NexTime</p>
     </div>
     
@@ -28,13 +28,9 @@
         <form id="formDadosCliente">
             <label for="dataSelecionada" class="labels">Data:</label>
             <input type="date" id="dataSelecionada:" class="dadosCliente">
-            <label for="primeiroNome" class="labels">Nome:</label>
-            <input type="text" id="primeiroNome" class="dadosCliente">
-            <label for="telefone" class="labels">Telefone:</label>
-            <input type="text" id="telefone" class="dadosCliente">
-            
+                        
             <label for="horarios" class="labels">Horários:</label>
-            <select id="horarios" nome="horarios">
+            <select id="horarios" nome="horarios" class="dadosCliente">
                 <option value="horariosSelecionado"></option>
                 <option value="09:00">09:00h </option>
                 <option value="10:00">10:00h </option>
@@ -46,6 +42,11 @@
                 <option value="17:00">17:00h </option>
                 <option value="18:00">18:00h </option>
             </select>
+
+            <label for="primeiroNome" class="labels">Nome:</label>
+            <input type="text" id="primeiroNome" class="dadosCliente">
+            <label for="telefone" class="labels">Telefone:</label>
+            <input type="text" id="telefone" class="dadosCliente">
             
             <label class="labelBt"><input type="submit" name="enviarHora" value="Agendar" id="btAgendar"></label>
         </form>
