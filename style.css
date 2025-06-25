@@ -10,14 +10,12 @@ h1 {
 
 h2 {
 	text-align: center;
-}
-
-.forms {
-	
+    margin-bottom: 5vh;
+    margin-top: 5vh;
 }
 
 #labelInput {
-	padding-left: 11vw;
+	padding-left: 6vw;
 	font-size: 3.5vw;
 }
 
@@ -28,21 +26,22 @@ h2 {
     outline-offset: 1px;
     border-radius: 10vw;
     border: none;
-    background-color: #002eff0d;
+    background-color: #4477ff;
     border-bottom: 1px solid;
     border-color: #0043ff7d;
+    color: white;
     margin-bottom: 1vh;
     padding: 4vw;
-    font-size: 3vw;
+    font-size: 3.5vw;
     width: 75vw;
     font-weight: 400;
 	width: 30vw;
 }
 
 .botaoLista {
-	font-size: 2.5vw;
+	font-size: 3.5vw;
     margin-left: 2vw;
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
     border: none;
     border-radius: 15vw;
     background-color: #4477ff;
@@ -53,7 +52,7 @@ h2 {
 
 li {
 	list-style: none;
-    font-size: 3.5vw;
+    font-size: 4vw;
     display: block;
     justify-self: left;
 	
@@ -69,12 +68,10 @@ li {
     background-color: #002eff0d;
     border-bottom: 1px solid;
     border-color: #0043ff7d;
-    margin-bottom: 1vh;
-    padding: 2.5vw;
-    font-size: 3vw;
-    width: 60vw;
+    margin-bottom: 2vh;
+    padding: 3vw;
+    font-size: 4vw;
+    width: 85vw;
     font-weight: 400;
-	
-	
 	
 }
