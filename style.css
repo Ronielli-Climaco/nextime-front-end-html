@@ -24,13 +24,18 @@ h2 {
 .buttons {
 	display: block;
     justify-self: center;
+    outline-color: #0043ff7d;
+    outline-offset: 1px;
+    border-radius: 10vw;
     border: none;
-    border-radius: 15vw;
-    padding: 2vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    color: #ffffff;
-    background-color: #4477ff;
+    background-color: #002eff0d;
+    border-bottom: 1px solid;
+    border-color: #0043ff7d;
+    margin-bottom: 1vh;
+    padding: 4vw;
+    font-size: 3vw;
+    width: 75vw;
+    font-weight: 400;
 }
 
 .botaoLista {
