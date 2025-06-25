@@ -3,6 +3,7 @@
   --cor-secundaria: #2ecc71; /* Verde */
   --cor-texto: #252525; /* Cor do texto principal */
   --cor-fundo: #ffffff; /* Cor de fundo */
+  --cor-contorno: #ebebeb
 }
 
 .divLogo {
@@ -67,7 +68,7 @@ h2 {
     font-weight: 600;
     background-color: var(--cor-primaria);
     border: none;
-    border-radius: 20px;
+    border-radius: 15vw;
     padding: 10px;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -80,16 +81,9 @@ h2 {
     align-self: center;
 }
 
-#horarios {
-    background-color: var(--cor-fundo);
-    padding: 2vw;
-    border: none;
-    font-size: 3.5vw;
-    border-bottom: 2px solid;
-    border-color: var(--cor-primaria);
+#horarios {background-color: var(--cor-contorno);
+    padding: 2vw;   
     width: 74vw;
-    outline: none;
-    align-self: center;
 }
 
 .dadosCliente {
@@ -97,13 +91,14 @@ h2 {
     align-self: center;
     border: none;
     text-decoration: none;
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-contorno);
     color: var(--cor-texto);
     border-bottom: 2px solid;
     border-color: var(--cor-primaria);
     outline: none;
     width: 70vw;
     font-size: 3.5vw;
+    border-radius: 15vw;
 }
 
 .labels {
