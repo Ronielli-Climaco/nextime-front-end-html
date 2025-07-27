@@ -91,6 +91,9 @@ body{
         outline: none; 
     }
 
+    .dadosCliente[type="date"] {
+        padding-left: 10px;
+    }
 
     .submit {
         background-color: var(--cor-secundaria);
