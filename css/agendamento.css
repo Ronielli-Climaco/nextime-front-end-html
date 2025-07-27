@@ -101,8 +101,14 @@ body{
         }
     }
 
+    .dadosCliente[type="date"] {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
 
-    
+
+
     .submit {
         background-color: var(--cor-primaria);
         color: var(--cor-texto-claro);
