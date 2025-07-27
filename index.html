@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligenda</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="\css\agendamento.css">
+    <link rel="icon" href="\images\icone.png" sizes="48x48" type="image/png">
+
+</head>
+<body>
+
+    <div class="divLogo">
+        <img src="\images\logo.png" alt="logo" class="imagemLogo">
+    </div>
+    
+    <div class="divTitulo">
+        <h1>Luck Barbearia</h1>
+        <h2>Por favor, selecione a data e horário disponível para agendamento</h2>
+    </div> 
+        
+
+    <div class="divFormulario">    
+        <form id="formDadosCliente">
+            <label for="dataSelecionada" class="labels">Data:</label>
+            <input type="date" id="dataSelecionada:" class="dadosCliente" placeholder="">
+                        
+            <label for="horarios" class="labels">Horários:</label>
+            <select id="horarios" nome="horarios" class="dadosCliente">
+                <option value="horariosSelecionado"></option>
+                <option value="09:00">09:00h </option>
+                <option value="10:00">10:00h </option>
+                <option value="11:00">11:00h </option>
+                <option value="13:00">13:00h </option>
+                <option value="14:00">14:00h </option>
+                <option value="15:00">15:00h </option>
+                <option value="16:00">16:00h </option>
+                <option value="17:00">17:00h </option>
+                <option value="18:00">18:00h </option>
+            </select>
+
+            <label for="primeiroNome" class="labels">Nome:</label>
+            <input type="text" id="primeiroNome" class="dadosCliente">
+            <label for="telefone" class="labels">Telefone:</label>
+            <input type="text" id="telefone" class="dadosCliente">
+
+            <input type="submit" class="submit" name="enviarHora" value="Agendar" id="btAgendar">
+        </form>
+    </div>
+     
+    <script src="/script.js" defer></script>
+
+    
+</body>
+</html>
