@@ -92,7 +92,7 @@ body{
     }
 
     .dadosCliente[type="date"] {
-        padding-left: 10px;
+        padding-right: 175px;
     }
 
     .submit {
