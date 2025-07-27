@@ -1,7 +1,7 @@
 :root {
-    --cor-primaria: #202844;
-    --cor-secundaria: #1e578e;
-    --cor-terciaria: #2285b5;
+    --cor-primaria: #1e578e;
+    --cor-secundaria: #2285b5;
+    --cor-terciaria: #4fbdde;
     --cor-texto: #333333;
     --cor-texto-claro: #ffffff;
     --cor-fundo: #F2F2F2;
@@ -89,16 +89,6 @@ body{
         border: 1px solid var(--cor-borda);
         margin-bottom: 15px;
         outline: none; 
-
-        #dataSelecionada {
-            width: 100%;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid var(--cor-borda);
-            background-color: var(--cor-fundo);
-            color: var(--cor-texto);
-            font-size: 1rem;
-        }
     }
 
 
