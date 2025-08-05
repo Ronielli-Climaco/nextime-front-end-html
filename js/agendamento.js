@@ -11,3 +11,14 @@ document.getElementById("telefone").addEventListener("input", function (e) {
     e.target.value = valor.trim();
 
 });
+
+    document.getElementById("formDadosCliente").addEventListener("submit", function (e) {
+        
+        const telefone = document.getElementById("telefone").value.replace(/\D/g, ''); // Remove tudo que não é dígito
+        
+        if (telefone.length < 11) {
+            alert("O número de telefone deve ter entre 11 dígitos. Ex: (XX) X XXXX-XXXX");
+            e.preventDefault(); // Impede o envio do formulário
+        }
+
+    });

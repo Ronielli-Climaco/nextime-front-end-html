@@ -86,17 +86,19 @@ body{
     }
 
     .dadosCliente {
-        padding: 10px;
+        display: flex;
+        padding: 0.5rem;
         border-radius: 5px;
         border: 1px solid var(--cor-borda);
-        margin-bottom: 15px;
-        outline: none; 
+        margin-bottom: 1rem;
+        outline: none;
+        width: 94%;
+        flex-direction: column;
     }
 
-    .dadosCliente[type="date"] {
-        padding-right: 160px;
+    #horarios {
+        width: 100%;
     }
-
     .submit {
         background-color: var(--cor-secundaria);
         color: var(--cor-texto-claro);
